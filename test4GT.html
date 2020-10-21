@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Système d'Information Géographique (SIG)</h1> 
+<hr>
+<div><h2>Qu'est-ce qu'un SIG ?</h2>
+<img src="res/carteMonde.png">
+</div>
+<p title="Qu'est-ce qu'un SIG ?">L'information géographique désigne toute information sur des objets ou 
+    des phénomènes (appelés entités géographiques) localisables à la surface de la terre. 
+    Elle est classiquement représentée sous forme cartographique, avec ses 2 composantes :
+</p>
+<ol>
+    <li>une composante graphique : la carte, qui décrit la forme et les caractéristiques de l'entité tout
+         en la localisant par des coordonnées géographiques ou cartographiques.</li>
+    <li>une composante attributaire : la légende, qui identifie les entités représentées.</li>
+</ol>
+<p>Les premières cartes eurent plusieurs inconvénients : quantité d'informations limitée, documents figés 
+    dont la mise à jour est difficile, manipulation de cartes à échelles différentes malaisée. C'est pourquoi, 
+    on a essayé de limiter ces inconvénients en profitant de l'essor de l'informatique :
+<ul>
+    <li>DAO = dessin assisté par ordinateur (Autocad, Microstation). Il s'agit de logiciels spécialisés dans 
+    les dessins techniques notamment pour les constructions géométriques (plans), l'acquisition se fait par 
+    tracé (c'est à dire par digitalisation) avec possibilité de vues en 3D.
+    Cependant, il n'est généralement pas possible d'associer de données chiffrées (bien qu'Autocad20007
+     version 2004 intègre un module SIG)</li>
+    <li>Cartographers (Cartes et bases, Cartes et données) : logiciels de cartographie permettant une
+    spatialisation des données à partir de données statistiques issues d'un tableur (comme EXCEL).
+    Cependant, l'acquisition de données est limitée car la digitalisation n'est pas possible (fonds de carte
+     à importer qui sont couteux).</li>
+    <li>PAO = Publication assistée par ordinateur. Il existe deux grands types de logiciels :
+    - de dessin et de mise en page : Illustrator, FreeHand, Coreldraw, Canvas... pour faire des rendus et des mises en page professionnels (lissage des courbes par des courbes de Bézier)
+    - Logiciels de mise en page seulement : X-Press, Publisher, Pagemaker, Ventura...</li>
+</p>
+</ul>
+<hr>
+<h2>Avantages de tous ces outils :</h2>
+<ul>
+<li>on peut exploiter une grosse quantité d'informations et les trier en les superposant sur des couches 
+    différentes (appelées calques).</li>
+<li>on peut y ajouter des étiquettes de texte</li>
+<li>le rendu final est souvent lisible et propre</li>
+</ul>
+<hr>
+<h2>Logiciel SIG</h2>
+<img  title="une carte de l'Ile-de-France sur SIG" src="res/carteSig.png" alt="carte">
+<p>Ce qui explique la naissance des Systèmes d'Information Géographique (SIG), à la fin des années 60 au Canada,
+     mais seulement dans les années 80 en France, en retard par rapport aux autres pays européens.
+    En 1989, la Société française de Photogrammétrie et de télédétection définissait le SIG comme étant
+     " un système informatique permettant, à partir de diverses sources, de rassembler et d'organiser, 
+     de gérer, d'analyser et de combiner, d'élaborer et de présenter des informations localisées
+      géographiquement (géoréférencées). L'ensemble des informations géographiques intégrées dans le
+       SIG forment une base de données géographiques. "Le SIG permet donc de gérer une multitude d'informations
+        de tous types (images satellitaires, photos aériennes, cartes, données chiffrées, bases de données...), 
+        de les mettre à jour très rapidement, de faire des requêtes (classiques et spatiales), d'appliquer des 
+        règles de topologie et de générer de nouvelles couches d'informations par le biais de ces croisements.
+    
+    En schématisant, un logiciel SIG est donc un système de gestion de bases de données (SGBD) localisées qui 
+    comprend une ou plusieurs couches géographiques qui peuvent entretenir des relations entre elles, 
+    être croisées, interrogées...</p>
+    <p><a href="#top">Back to top</a></p> 
+</body>
+</html>
